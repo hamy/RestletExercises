@@ -76,6 +76,10 @@
 							<name>log4j.configuration</name>
 							<value>log4j-for-unit-tests.xml</value>
 						</property>
+						<property>
+							<name>org.restlet.engine.loggerFacadeClass</name>
+							<value>org.restlet.ext.slf4j.Slf4jLoggerFacade</value>
+						</property>
 					</systemProperties>
 				</configuration>
 			</plugin>
